@@ -2416,7 +2416,7 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-fbjs@^0.8.9:
+fbjs@^0.8.4, fbjs@^0.8.9:
   version "0.8.12"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.12.tgz#10b5d92f76d45575fd63a217d4ea02bea2f8ed04"
   dependencies:
@@ -4953,6 +4953,13 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-addons-shallow-compare@^15.0.2:
+  version "15.6.0"
+  resolved "https://registry.yarnpkg.com/react-addons-shallow-compare/-/react-addons-shallow-compare-15.6.0.tgz#b7a4e5ff9f2704c20cf686dd8a05dd08b26de252"
+  dependencies:
+    fbjs "^0.8.4"
+    object-assign "^4.1.0"
+
 react-dev-utils@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-3.0.2.tgz#1a42263e9b6aa11dcb45d69dfe5eb1b354bd5531"
@@ -5050,6 +5057,12 @@ react-scripts@1.0.10:
     whatwg-fetch "2.0.3"
   optionalDependencies:
     fsevents "1.1.2"
+
+react-sparklines@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/react-sparklines/-/react-sparklines-1.6.0.tgz#0fe5987b1895301ce724c40d78ab9a26e8a9c2bf"
+  dependencies:
+    react-addons-shallow-compare "^15.0.2"
 
 react@^15.6.1:
   version "15.6.1"
